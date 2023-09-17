@@ -1,0 +1,16 @@
+15
+21L1389, Sajjad Ahmad, 85, 73, 58, 62, 51
+21L1819, Faisal Noor, 93, 63, 55, 52, 67
+21L3283, Asim Shahzad, 46, 51, 61, 62, 57
+21L3821, Fiaza Saleem, 88, 73, 59, 67, 55
+21L1733, Saleem Shah, 77, 75, 67, 78, 72
+21L5259, Shahmir Yousaf, 94, 89, 93, 79, 85
+21L1776, Wania Tariq, 90, 92, 79, 85, 79
+21L1570, Sadeem Sajid, 85, 91, 78, 82, 74
+21L1806, Abdul Rafay, 76, 69, 89, 79, 78
+21L5221, Daniyal Jawad, 77, 89, 67, 79, 81
+21L5173, Murtaza Ahmed, 87, 71, 77, 75, 82
+21L1755, Ikram Ul Haq, 70, 82, 81, 68, 69
+21L7564, Jannat Nasir, 87, 78, 90, 81, 79
+21L5378, Shahzaib Shahbaz, 77, 83, 68, 72, 75
+21L5171, Haseeb Zaheer, 81, 78, 85, 78, 84
