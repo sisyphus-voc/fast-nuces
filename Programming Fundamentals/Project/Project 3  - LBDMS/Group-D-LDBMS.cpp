@@ -700,7 +700,7 @@ void IssueBook(struct BookData books[], int totalbooks, const char bookfile[], c
             books[bookindex].issued = 1;
             books[bookindex].issuedate = new_issuedate;
             books[bookindex].returndate = new_returndate;
-            strcpy_s(books[bookindex].issued_toID, id);
+            strcpy(books[bookindex].issued_toID, id);
 
         }
         //if the rank is 2 i.e students 15 days are added to issue date to calculate return date
@@ -714,7 +714,7 @@ void IssueBook(struct BookData books[], int totalbooks, const char bookfile[], c
             books[bookindex].issued = 1;
             books[bookindex].issuedate = new_issuedate;
             books[bookindex].returndate = new_returndate;
-            strcpy_s(books[bookindex].issued_toID, id);
+            strcpy(books[bookindex].issued_toID, id);
 
         }
         //input validation
@@ -1010,7 +1010,7 @@ void ReturnBook(BookData books[], int totalbooks, const char bookfile[], const D
 
 
     //The user is obtained from BookData struct array
-    strcpy_s(id, books[bookindex].issued_toID);
+    strcpy(id, books[bookindex].issued_toID);
 
     //The userindex os that id is obtained from userfile
     userindex = GetIDIndex(id, users, total_users);
@@ -1058,7 +1058,7 @@ void ReturnBook(BookData books[], int totalbooks, const char bookfile[], const D
     }
 
     //The issuance data is updated to default in the array here and then printed in the file
-    strcpy_s(books[bookindex].issued_toID, default_id);
+    strcpy(books[bookindex].issued_toID, default_id);
     books[bookindex].issuable = 1;
     books[bookindex].issued = 0;
     books[bookindex].issuedate.day = 0;
