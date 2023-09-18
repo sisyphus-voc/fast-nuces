@@ -541,7 +541,7 @@ int getChoice()
 	{
 		cout << "Invalid Input (Wrong Data Type)\n";
 		cin.clear();
-		cin.ignore(std::numeric_limits<int>::max(), '\n');
+		//cin.ignore(std::numeric_limits<int>::max(), '\n');
 		cout << "=>";
 		cin >> choice;
 	}
@@ -2244,7 +2244,7 @@ long long int getvalidpptno()
 	{
 		cout << "Invalid Input (Wrong Data Type)\n";
 		cin.clear();
-		cin.ignore(std::numeric_limits<long long int>::max(), '\n');
+		//cin.ignore(std::numeric_limits<long long int>::max(), '\n');
 		cout << "=>";
 		cin >> choice;
 	}
